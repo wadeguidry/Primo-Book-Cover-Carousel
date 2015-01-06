@@ -38,14 +38,14 @@ http://www.pugetsound.edu/academics/academic-resources/collins-memorial-library/
 
 Since our campus public web site uses a proprietary CMS with certain content restrictions, I publish the carousel to the site using an iframe tag, like so:
 
-<iframe src="http://digitalcollections.pugetsound.edu/jcarousel/trending_c.html" width="100%" height="400" NDC=TRUE>
+iframe src="http://digitalcollections.pugetsound.edu/jcarousel/trending_c.html" width="100%" height="400" NDC=TRUE
 
 
 Notes about the script:
 ==============================
 
-- My example is in PHP, and I am definitely *not* a programmer. The script is more proof-of-concept than production, so keep that in mind as you read the code.
+- My example is in PHP, and I am definitely not a programmer. The script is more proof-of-concept than production, so keep that in mind as you read the code.
 
--The actual "carousel" feature in use was taken from another github project: https://github.com/jsor/jcarousel. So much credit goes to the author of that code.
+- The actual "carousel" feature in use was taken from another github project: https://github.com/jsor/jcarousel. So much credit goes to the author of that code.
 
--The book covers are taken from openlibrary.org using a simple call to their web site. I have no association with openlibrary.org, and so cannot speak to the restrictions on use of their content. But you can refer to their web site at: https://openlibrary.org/dev/docs/api/covers for information about acceptable use.
+- The book covers are taken from openlibrary.org using a simple call to their web site. I have no association with openlibrary.org, and  cannot speak to the restrictions on use of their content. But you can refer to their web site at: https://openlibrary.org/dev/docs/api/covers for information about acceptable use.
