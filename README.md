@@ -1,7 +1,7 @@
 Primo-Book-Cover-Carousel
 =========================
 
-This project generates a rotating carousel of book covers representing book titles currently "trending" in my library. "Trending" being loosely defined as books that were recently returned :)
+This project generates a rotating carousel of book covers representing book titles currently "trending" in my library. In this case, "trending" is loosely defined as books that were recently checked out and returned :)
 
 I am publishing this project primarily for members of the Orbis Cascade Alliance, but other Ex Libris Alma customers may also find this project of interest.
 
@@ -9,7 +9,7 @@ To see the code in action, you can check out:
 
 http://www.pugetsound.edu/academics/academic-resources/collins-memorial-library/new-resources/recently-read-collins/
 
-This script is more "proof-of-concept" than production, and provides an example of how to use the Alma Analytics API against an existing report.
+This script is more "proof-of-concept" than production, and provides an example of how to use the Alma Analytics API.
 
 The various components required for this project include:
 
@@ -35,6 +35,8 @@ Quick-and-dirty "how it works" (to be continued)
 	/Shared Folders/Community/Reports/University of Puget Sound/trending_titles
 	
 	It is helpful to consider the actual report along with the script, because the script is written specifically to read the results of this report (ie, report field order and field names as returned by the API are important)
+	
+	You can tweak the contents of your own analytics report as desired, maybe books that have been checked out twice recently. 
 
 2. Use a script similar to the "trending_c.php" to generate the carousel code.
 
@@ -65,3 +67,5 @@ Other notes and considerations:
 - The book covers are taken from openlibrary.org using a simple call to their web site. I have no association with openlibrary.org, and  cannot speak to the restrictions on use of their content. But you can refer to their web site at: https://openlibrary.org/dev/docs/api/covers for information about acceptable use.
 
 - The toughest part of the Alma Analytics API for me was understanding how to deal with XML namespace used in the data returned by the API. Thanks goes to Kate Deibel at University of Washington library for helping me with that part.
+
+- Since overdue books stay "attached" to the patron record until the fines are paid, I only include books in the report if they were returned on time (ie, not late). I don't want to include books if there is even a remote chance that the title could be traced back to a specific library patron.
