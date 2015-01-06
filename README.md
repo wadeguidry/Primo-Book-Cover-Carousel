@@ -1,11 +1,23 @@
 Primo-Book-Cover-Carousel
 =========================
 
-Rotating carousel of book covers representing book titles pulled from an Alma Analytics report.
+This project generates a rotating carousel of book covers representing book titles currently "trending" in my library. "Trending" being loosely defined as books that were recently returned :)
+
+<iframe src="http://digitalcollections.pugetsound.edu/jcarousel/trending_c.html" width="100%" height="400" NDC=TRUE>
 
 This script is more "proof-of-concept" than production, and provides an example of how to use the Alma Analytics API against an existing report.
 
-Quick-and-dirty "how it works"
+The various components required for this project include:
+
+1. Ex Libris Alma, and Alma Analytics
+2. An Alma Analytics report that contains a list of book titles you want to report against.
+3. JCarousel, a github project (https://github.com/jsor/jcarousel)
+4. Openlibrary.org (the source for the cover art)
+5. The PHP script included in this project (trending_c.php, "trending" because my list is comprised of books trending in my library, and _c for "carousel").
+6. A place to run the script. (I actually run the script on our CONTENTdm server).
+
+
+Quick-and-dirty "how it works" (to be continued)
 ==============================
 
 1. Generate a list of titles of interest in Alma Analytics
@@ -24,6 +36,9 @@ To see the code in action, I have a carousel running at:
 
 http://www.pugetsound.edu/academics/academic-resources/collins-memorial-library/new-resources/recently-read-collins/
 
+Since our campus public web site uses a proprietary CMS with certain content restrictions, I publish the carousel to the site using an iframe tag, like so:
+
+<iframe src="http://digitalcollections.pugetsound.edu/jcarousel/trending_c.html" width="100%" height="400" NDC=TRUE>
 
 
 Notes about the script:
