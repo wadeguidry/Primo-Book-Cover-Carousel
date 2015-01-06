@@ -3,7 +3,7 @@ Primo-Book-Cover-Carousel
 
 This project generates a rotating carousel of book covers representing book titles currently "trending" in my library. "Trending" being loosely defined as books that were recently returned :)
 
-This project is intended primarily for members of the Orbis Cascade Alliance, but any other Ex Libris Alma customers may also find this project of interest.
+I am publishing this project primarily for members of the Orbis Cascade Alliance, but other Ex Libris Alma customers may also find this project of interest.
 
 To see the code in action, you can check out:
 
@@ -29,6 +29,12 @@ Quick-and-dirty "how it works" (to be continued)
 	In my case, I wrote a report to generate a list of "trending" titles in our library. That is, titles that were checked out and recently returned.
 	
 	The Analytics report I am using updates nightly, so the list of titles is constantly refreshed.
+	
+	I have placed a copy of my actual analytics report in the Alma Analytics community folder, at:
+	
+	/Shared Folders/Community/Reports/University of Puget Sound/trending_titles
+	
+	It is helpful to consider the actual report along with the script, because the script is written specifically to read the results of this report (ie, report field order and field names as returned by the API are important)
 
 2. Use a script similar to the "trending_c.php" to generate the carousel code.
 
