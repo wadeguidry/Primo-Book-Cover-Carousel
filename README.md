@@ -3,7 +3,11 @@ Primo-Book-Cover-Carousel
 
 This project generates a rotating carousel of book covers representing book titles currently "trending" in my library. "Trending" being loosely defined as books that were recently returned :)
 
-<iframe src="http://digitalcollections.pugetsound.edu/jcarousel/trending_c.html" width="100%" height="400" NDC=TRUE>
+This project is intended primarily for members of the Orbis Cascade Alliance, but any other Ex Libris Alma customers may also find this project of interest.
+
+To see the code in action, you can check out:
+
+http://www.pugetsound.edu/academics/academic-resources/collins-memorial-library/new-resources/recently-read-collins/
 
 This script is more "proof-of-concept" than production, and provides an example of how to use the Alma Analytics API against an existing report.
 
@@ -53,3 +57,5 @@ Other notes and considerations:
 - The actual "carousel" feature in use was taken from another github project: https://github.com/jsor/jcarousel. So much credit goes to the author of that code.
 
 - The book covers are taken from openlibrary.org using a simple call to their web site. I have no association with openlibrary.org, and  cannot speak to the restrictions on use of their content. But you can refer to their web site at: https://openlibrary.org/dev/docs/api/covers for information about acceptable use.
+
+- The toughest part of the Alma Analytics API for me was understanding how to deal with XML namespace used in the data returned by the API. Thanks goes to Kate Deibel at University of Washington library for helping me with that part.
