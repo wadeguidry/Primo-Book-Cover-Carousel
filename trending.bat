@@ -1,1 +1,1 @@
-php.exe -f E:\OCLC\CONTENTdm\Content6\website\public_html\jcarousel\trending_c.php
+php.exe -f j:\jcarousel\trending_c.php
