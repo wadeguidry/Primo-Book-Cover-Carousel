@@ -28,15 +28,17 @@ Quick-and-dirty "how it works" (to be continued)
 
 2. Use a script similar to the "trending_c.php" to generate the carousel code.
 
+	My code does include comments, that hopefully provide some guidance as to what is happening where.
+
 3. Publish the carousel on the web as desired.
 
-	In my case, I currently "refresh" the carrousel once a night, so that each day, a fresh set of covers is provided.
+	In my case, I currently "refresh" the carousel once a night, so that each day, a fresh set of covers is provided.
 
-To see the code in action, I have a carousel running at:
+To see the code in action, you can check out:
 
-http://www.pugetsound.edu/academics/academic-resources/collins-memorial-library/new-resources/recently-read-collins/
+	http://www.pugetsound.edu/academics/academic-resources/collins-memorial-library/new-resources/recently-read-collins/
 
-Since our campus public web site uses a proprietary CMS with certain content restrictions, I publish the carousel to the site using an iframe tag, like so:
+Since our campus public web site uses a semi-proprietary CMS with certain content restrictions, I publish the carousel to the site using an iframe tag, like so:
 
 iframe src="http://digitalcollections.pugetsound.edu/jcarousel/trending_c.html" width="100%" height="400" NDC=TRUE
 
