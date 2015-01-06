@@ -33,6 +33,8 @@ Quick-and-dirty "how it works" (to be continued)
 3. Publish the carousel on the web as desired.
 
 	In my case, I currently "refresh" the carousel once a night, so that each day, a fresh set of covers is provided.
+	
+	I run the script at a scheduled time each night, using a scheduled task on a Windows 2008 server, using the trending.bat file included in the repository.
 
 To see the code in action, you can check out:
 
@@ -43,7 +45,7 @@ Since our campus public web site uses a semi-proprietary CMS with certain conten
 <code>iframe src="http://digitalcollections.pugetsound.edu/jcarousel/trending_c.html" width="100%" height="400" NDC=TRUE</code>
 
 
-Notes about the script:
+Other notes and considerations:
 ==============================
 
 - My example is in PHP, and I am definitely not a programmer. The script is more proof-of-concept than production, so keep that in mind as you read the code.
