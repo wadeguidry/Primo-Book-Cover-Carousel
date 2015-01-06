@@ -40,7 +40,7 @@ To see the code in action, you can check out:
 
 Since our campus public web site uses a semi-proprietary CMS with certain content restrictions, I publish the carousel to the site using an iframe tag, like so:
 
-iframe src="http://digitalcollections.pugetsound.edu/jcarousel/trending_c.html" width="100%" height="400" NDC=TRUE
+<code>iframe src="http://digitalcollections.pugetsound.edu/jcarousel/trending_c.html" width="100%" height="400" NDC=TRUE</code>
 
 
 Notes about the script:
