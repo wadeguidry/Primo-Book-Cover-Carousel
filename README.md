@@ -36,7 +36,7 @@ Quick-and-dirty "how it works" (to be continued)
 
 To see the code in action, you can check out:
 
-	<link>http://www.pugetsound.edu/academics/academic-resources/collins-memorial-library/new-resources/recently-read-collins/</link>
+http://www.pugetsound.edu/academics/academic-resources/collins-memorial-library/new-resources/recently-read-collins/
 
 Since our campus public web site uses a semi-proprietary CMS with certain content restrictions, I publish the carousel to the site using an iframe tag, like so:
 
