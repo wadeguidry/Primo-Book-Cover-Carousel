@@ -32,7 +32,7 @@ Quick-and-dirty "how it works" (to be continued)
 	
 	I have placed a copy of my actual analytics report in the Alma Analytics community folder, at:
 	
-	<b>/Shared Folders/Community/Reports/University of Puget Sound/trending_titles</b>
+	<b>/Shared Folders/Community/Reports/Shared Reports/Reports/Fulfillment – Misc. Reports/Univ Puget Sound – trending_titles</b>
 	
 	It is helpful to consider the actual report along with the script, because the script is written specifically to read the results of this report (ie, report field order and field names as returned by the API are important)
 	
